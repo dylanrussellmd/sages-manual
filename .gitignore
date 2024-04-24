@@ -1,0 +1,7 @@
+.vscode
+/markdown_files/
+*.html
+*.log
+*.pdf
+*.tex
+*.pdf
