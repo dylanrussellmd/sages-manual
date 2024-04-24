@@ -1,0 +1,105 @@
+---
+title: Standards for the Manuscript
+citeproc: true
+bibliography: biblatex-examples.bib
+csl: springer-basic-author-date.csl
+number-sections: true
+format: 
+  typst:
+    font-paths: fonts
+---
+```{=typst} 
+#show link: set text(blue)
+#show link: underline
+#show raw: set text(font: "JetBrains Mono")
+#show raw.where(block: false): set text(purple)
+```
+# Goals
+1. Critically review available evidence for surgical antibiotic prophylaxis in various surgical procedures.
+2. Make evidence based recommendations regarding aforementioned procedures.
+3. Publish a SAGES manual.
+4. Create an interactive web app that serves as an easy-to-use authoritative source (similar to [Sanford Guide](https://www.sanfordguide.com/)).
+5. Everyone is a co-author of both the manual and web app.
+
+# Why?
+Principles of antimicrobial stewardship, save money, avoid antibiotic related adverse effects, and "doing our part" [@starship] against world-ending ultra-resistant superbugs.
+
+# Expectations
+1. Write the manuscript in markdown. See `markdown.qmd` which was sent with this document.
+2. Do a "thorough review" of the relevant literature. "Thorough" is left to be defined by the subject matter expert (i.e., you), but here are some suggestions:
+    i) Include studies that are specifically about, or can be reasonably generalized to, your assigned procedure(s).
+    ii) No study is too old; as long as you deem the methodology still relevant to modern surgical practice, it may be included.
+    iii) It is okay to include studies you consider subpar, dubious, questionable, or otherwise trash. Reviewing the quality of available evidence is an important part of making an informed recommendation.
+    v) It is better to include too many studies rather than too few; we can always cut down.
+    vi) Start with RCTs and meta-analyses. There is no reason not to include all of these.
+    vii) Include non-randomized prospective and retrospective studies at your discretion. You should discuss these if there is a paucity of higher quality evidence.
+    viii) Please discuss any existing relevant societal guidelines.
+3. Organize the manuscript in chronological order.
+3. For each article please discuss:
+    i) Relevant research context of the study (usually in the article's introduction).
+    ii) Methodology
+    iii) Results
+    iv) Authors' conclusions
+    v) Any criticisms (your own and/or from other sources) 
+3. Use direct quotes whenever possible, especially when authors make a firm conclusion or recommendation.
+4. Report exact results whenever possible.
+5. Relevant figures and tables should be included in the manuscript (see @sec-images).
+6. Cite all studies (see @sec-citations).
+7. Make concluding recommendation for or against surgical antibiotic prophylaxis.
+    i) It is ok to make nuanced recommendations (e.g., differing recommendations for certain risk factors or patient populations).
+    ii) If there is no good evidence either way, it is ok to leave to the discretion of the operating surgeon.
+8. Make recommendations for further research, such as:
+    i) "We need to study X risk factors more."
+    ii) "We need a randomized controlled trial."
+    iii) "We need more studies in the United States as current studies in X region do not represent our patient population accurately."
+    iv) "Scotty, we need more power" [@captainkirk]
+
+# Articles
+Please keep PDF copies of the articles you use to write the manuscript. You will submit them later. 
+
+:::{.callout-tip}
+If you do not have access to an article you need, please let me know. I can probably get it to you.
+:::
+
+# Citations {#sec-citations}
+Please collect your citations in `.bib` or `.nbib` format. You will submit them later.
+
+Please see `markdown.qmd` for details on where to get these files and how to include citations in your manuscript.
+
+# Images {#sec-images}
+If there is a table or figure from an article you would like to include in your manuscript, use the following format to include it:
+
+```
+![My Figure Caption](figure1.png){#fig-uniquename}
+```
+where:
+
+- `[My Figure Caption]` is whatever you want the caption to say in the manuscript.
+- `(figure1.png)` is the file name of your figure.
+- `{#fig-uniquename}` is your cross reference key for the figure (see `markdown.qmd` for more information).
+
+Please see `markdown.qmd` for more information on figures and how to include and reference them in your manuscript.
+
+To actually obtain the image, a screenshot is necessary. We want to obtain high resolution images. Usually 300 dpi for print and 72 dpi for a webpage. All you need to worry about is getting the largest screenshot possible, I will resize as needed to the appropriate dpi. 
+
+I recommend using the built-in screenshot tool of whatever PDF reader you are using. If you do not already have Adobe Acrobat, I recommend the free application [PDFGear](https://www.pdfgear.com/). It is as good, if not better, in my opinion. 
+
+Enlarge the table or figure you would like to include to the largest you can fit on your screen at once then use the screenshot tool, as shown in @fig-screenshot. Save the file and hold on to it, you will submit it with your manuscript.
+
+![PDFGear Screenshot Tool](screenshot.png){#fig-screenshot width="100%"}
+
+# Collecting Data
+An Excel sheet called `data.xls` has been sent with these documents. This is divided into tabs by type of research study. Please fill out the fields as much as possible for each article you include. The fields should be self-explanatory but please let me know if you have issues.
+
+# Submission
+When complete, the manuscript and auxillary documents will be uploaded to a secure website for processing and compilation. Access to the file upload will be granted at a later date. 
+
+Zip the following documents into a single folder and submit:
+
+1. The manuscript `.txt` or `.qmd` file.
+2. Articles saved as `.pdf` files.
+3. Citations saved as `.bib` or `.nbib` files.
+3. Images of all figures/tables as `.png` files.
+4. `data.xls` Excel sheet with data collected.
+
+# References

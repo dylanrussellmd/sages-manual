@@ -1,0 +1,223 @@
+---
+title: Writing the Manuscript with Markdown
+bibliography: biblatex-examples.bib
+csl: springer-basic-author-date.csl 
+citeproc: true
+number-sections: true
+format: 
+  typst:
+    font-paths: fonts
+---
+```{=typst} 
+#show link: set text(blue)
+#show link: underline
+#show raw: set text(font: "JetBrains Mono")
+#show raw.where(block: false): set text(purple)
+```
+
+# Markdown
+
+## What is Markdown?
+A lightweight markup language that you can use to add formatting elements to plaintext documents. It is very easy to use (this whole document was made with Markdown).
+
+You can learn all you [want to know about Markdown online](https://quarto.org/docs/authoring/markdown-basics.html). The basics you need to know are included later in this document.
+
+Please explore all the documents I sent. There are examples of pretty much everything you'll need to do when writing your manuscript within them.
+
+If you ever need help, you can just email me at [dyl.russell@gmail.com](mailto:dyl.russell@gmail.com).
+
+::: {.callout-note} 
+If you're really interested, we're actually using `pandoc`, [an enhanced Markdown language](https://pandoc.org/MANUAL.html#pandocs-markdown) and [`quarto`](https://quarto.org/), both of which make formatting easier in the future.
+:::
+
+## Why do it this way?
+- I promise, it might seem annoying to have to learn something new, but it makes this book *so* much easier to compile and edit in the end.
+- It's worth learning - this is where academic writing is heading. Most major journals already accept (and some demand) submission in various Markdown formats.
+-   You don't have to worry about typesetting the document. Just focus on the writing.
+-   You give me the raw material - I (and/or Springer) can set it with typesetting software.
+-   It's lightweight and fast - easier to edit, upload, combine, format, and version control.
+-   Anyone with a computer/phone/tablet can open a text document.
+
+## Use a text editor
+- [`Notepad`](https://apps.microsoft.com/detail/9msmlrh6lzf3?hl=en-US&gl=US) on Windows
+- [`TextEdit`](https://support.apple.com/guide/textedit/welcome/mac) on Mac
+- Neither `Notepad` nor `TextEdit` have built in spell check. I will spell check programmatically after you submit.
+- Third-party software (OS agnostic)
+    - [`Sublime`](https://www.sublimetext.com/)
+    - [`Zed`](https://zed.dev/)
+    - [`Atom`](https://atom-editor.cc/)
+    - [`Visual Studio Code`](https://code.visualstudio.com/)
+- Your document will be saved as a text document, which is a `.txt` file extension.
+
+::: {.callout-tip} 
+If you use something like `Sublime`, `Visual Studio Code` or `Atom`, you can change your file ending to `.qmd` to benefit from spell checking, syntax highlighting, document preview, auto-completion, and much more. But this is not necessary to write your manuscript at all.
+:::
+
+## Text editor quirks
+There is nothing fancy about basic text editors. There's nothing to do but type. If you find your sentences are running off the edge of your text editor, you probably need to turn on `Word Wrapping`. In `Notepad`, you'll find this option under the `View` menu.
+
+You only need to hit `Enter` when you want to start a new paragraph or section.
+
+- A single `Enter` is just treated like a `Space`.
+- Hit `Enter` twice for a new paragraph.
+
+For example, this sentence could have been typed on three lines but appears on one because I hit `Enter only once`.
+```
+For example, this sentence could have been typed on 
+three lines but appears on one because I 
+hit `Enter only once`.
+```
+But this sentence will be completely separated from...
+
+...this sentence because I hit `Enter` twice.
+
+```
+But this sentence will be completely separated from...
+
+...this sentence because I hit `Enter` twice.
+```
+
+# Markdown for manuscript writing
+
+## \# is how I made the big heading above\^
+Use the `#` to identify a heading.
+
+## \## is how I made this smaller heading (and the one above this\^) 
+`##` will give you a smaller sub-heading...
+
+### \### is even smaller.
+...and `###` so on and so forth.
+
+So for example, your manuscript might look exactly like this in your
+text editor:
+
+    # Randomized Controlled Trials
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Ut enim blandit volutpat maecenas volutpat.
+
+    ## Eisenhower et al., 1996
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus sit amet volutpat consequat mauris nunc congue. Praesent tristique magna sit amet purus gravida quis blandit.
+
+    ### Methods
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur vitae nunc sed velit. Posuere urna nec tincidunt praesent semper.
+
+## Do I need to bold, italicize, or underline anything?
+No... ...you do not. 
+
+## What about if I want to block quote directly from an article? 
+You can - and likely should - do this in your manuscripts, especially when the quote is particularly poignant or there is a relevant guideline.
+
+> Block quotes will look like this. And they are very easy to do. Just prepend the start of the quote with `>`. Please always include a citation for what you are quoting at the end of the block quote. The citation would look like @aksin. I'll teach you more about citations soon. 
+
+If you wanted to reproduce the above block quote, you're text document would like exactly like this:
+
+```json
+> Block quotes will look indented like this. And they are very easy to do. Just prepend the start of the quote with `>`. Please always include a citation for what you are quoting at the end of the block quote. The citation would look like @aksin. I'll teach you more about citations soon. 
+```
+
+:::{.callout-warning}
+Make sure you make your block quote a new paragraph (hit `Enter` twice).
+:::
+
+## My paper has foreign funny letters or symbols!
+Don't worry about providing the Unicode (UTF-8) for anything. Simply find what you want from [this website](https://copychar.cc/) and paste it directly into your text document - ¡eufórico!
+
+## Citations {#sec-citations}
+Citations in markdown are easy. You don't need to worry about formatting or style [@cicero]. You'll use only a single command that looks like this:
+```
+Citations in markdown are easy. You don't need to worry about formatting or style [@cicero].
+```
+Notice the `[@cicero]`: that's all you need. I'll take care of the citation formatting, the bibliography, etc. This makes it really easy to switch citation styles for different publishers, journals, etc.
+
+According to @augustine, you can also do inline citations; just leave out the brackets!
+```
+According to @augustine, you can also do inline citations; just leave out the brackets!
+```
+The `@cicero` and `@augustine` came from something called a `.bib` file. This is a special document type that specifies citation data. Take a look at the `biblatex-examples.bib` document that I sent along with this document.
+
+If you scroll down through the `biblatex-examples.bib` far enough, you'll eventually find the `@augustine` entry, which in this case is a book. It looks like this.
+
+```json
+@book{augustine,
+  author       = {Augustine, Robert L.},
+  title        = {Heterogeneous catalysis for the synthetic chemist},
+  date         = 1995,
+  publisher    = {Marcel Dekker},
+  location     = {New York},
+  langid       = {english},
+  langidopts   = {variant=american},
+  shorttitle   = {Heterogeneous catalysis},
+  annotation   = {A plain \texttt{book} entry},
+}
+```
+
+Notice the very first part of that code block: `@book{augustine,`. That part is where you get the citation identifier - `@augustine`. Feel free to change the identifier and save the `.bib` file. You can change it to whatever you want, as long as what you put in the manuscript matches the `.bib` file. 
+
+In fact, you can change any of the data in the `.bib` file. It is fairly self-explanatory and what is contained within it is what will make it into the final bibliography.
+
+You should not have to make your own `.bib` files. You should be able to find them for any paper you're trying to cite. As shown in @fig-gs, you'll see it's easy to find in Google Scholar.
+
+::: {#fig-gs layout-nrow=2}
+![Google Scholar](einstein.png){#fig-einstein width="100%"}
+
+![Google Scholar citation download](einstein_cite.png){#fig-einstein-cite height="30%"}
+:::
+
+Just download the file you get from the button in @fig-einstein-cite and hold on to it. I'll ask you to send it along with your manuscript.
+
+They're also easy to find on PubMed and almost any journal site, such as a JAMA, as shown in @fig-pm and @fig-journal.
+
+::: {#fig-pm layout-nrow=2}
+![PubMed](watson.png){#fig-watson width="100%"}
+
+![PubMed citation download](watson_cite.png){#fig-watson-cite height="30%"}
+:::
+
+::: {#fig-journal layout-nrow=2}
+![JAMA](jama.png){#fig-jama width="100%"}
+
+![JAMA citation download](jama_cite.png){#fig-jama-cite height=30%}
+:::
+
+## Cross-references
+
+It's often desirable to be able to reference a figure, table, or section header. For example, if you look in @sec-citations, I referenced @fig-gs, @fig-pm, and @fig-journal. And just now, I didn't write any of those references:
+
+```
+For example, if you look in @sec-citations, I referenced @fig-gs, @fig-einstein-cite, @fig-pm, and @fig-journal.
+```
+
+First, I referenced @sec-citations with `@sec-citations`. This is a hook to call back to a specific section header. I created that hook when I made the section header:
+
+```
+# Citations {#sec-citations}
+```
+:::{.callout-important}
+The `#sec-` is important! All section hooks must start with `#sec-`; whatever comes after the `-` is fine as long as it is unique and one word with no spaces or punctuation.
+:::
+
+This is extremely helpful because if we decide in the editing process to add, move, or shift sections or chapters, we don't need to redo all the references manually.
+
+Figures are similar. To add a single figure, add this line wherevere in the manuscript you would like the figure to appear.
+
+```
+![Elephant](elephant.png){#fig-elephant}
+```
+
+- You must start with the `!`. 
+- Within the square brackets, `[Elephant]`, is the figure caption. 
+- Within the parentheses, `(elephant.png)`, is the file containing the figure. You'll need to send these with the manuscript. 
+- Within the curly braces, `{#fig-elephant}`, is the hook.
+
+You can then reference this figure anywhere in the manuscript with `@fig-elephant`. You don't need to worry about its placement in relation to other figures.
+
+:::{.callout-important}
+The `#fig-` is important! All figure hooks must start with `#fig-`; whatever comes after the `-` is fine as long as it is unique and one word with no spaces or punctuation.
+:::
+
+If you're curious how I made the subfigures in @sec-citations and referenced subcaptions, open up the `markdown.qmd` file in any text editor and check it out. It isn't hard to do!
+
+## Hyperlinks
+You can provide hyperlinks for websites. This will be nice for readers of online versions of the book. You've probably seen hyperlinks already in this document but [here is another](www.google.com). It was easy to do:
+```
+You've probably seen hyperlinks already in this document but [here is another](www.google.com).
+```

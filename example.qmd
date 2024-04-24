@@ -1,0 +1,258 @@
+---
+title: "Laparoscopic inguinal hernia repair"
+author:
+  - name: Dylan Russell, MD
+    orcid: 0000-0002-9543-9897
+    email: dyl.russell@gmail.com 
+    affiliation: 
+      - name: Tripler Army Medical Center
+        city: Honolulu 
+        state: HI
+citeproc: true
+bibliography: example.bib
+csl: springer-basic-author-date.csl
+---
+# Randomized Controlled Studies 
+
+## Schwetling et al., 1998 
+
+The article published by Schwetling et al. in 1998 is widely reported by multiple systematic reviews, meta-analyses, and guideline statements as being the only available randomized controlled trial regarding antibiotic prophylaxis in laparoscopic inguinal hernia repair @Schwetling1998.
+
+At the time of this literature review, the full text remains unobtainable. The [PubMed portal for the article][1] does not include a link to the full text. The [Zentralblatt für Chirurgie][2] Thieme portal only includes electronic articles dating as far back as 2000.
+
+All information regarding the outcomes of this trial and criticisms levied against it are acquired from the available PubMed abstract and from articles that cite the study.
+
+This study was a prospectively randomized study including 80 patients enrolled at some point between April 1996 and the study publication. The study arms were equally randomized such that 40 patients received perioperative antibiotics and 40 patients did not. All patients underwent a unilateral hernioplasty and "were without major anaesthesiologic risk". 
+
+The study reports that "both the groups were statistically comparable" and that "...no patient of both the groups suffered from an infectious complication." 
+
+The abstract concludes by stating
+
+> ...we can recommend the laparoscopic implantation of alloplastic meshes in "simple hernias" without perioperative antibiotic prophylaxis. In risk patients, antibiotics should still given further.
+
+The first article to cite this trial was Aufenacker et al. in 2006 [@Aufenacker2006]. The authors state that, at the time of publication, the Schwetling et al. study is the only known study concerning laparoscopic inguinal hernia repair. They describe the study as
+
+> weak (incorrect randomization and lack of definition of wound infection) but, in the absence of other studies, it was considered best evidence.
+
+Despite this criticism, Aufenacker et al. go on to conclude
+
+> This study virtually excluded a high risk of wound infection after laparoscopic repair... Although hard evidence is lacking, it is probably acceptable to conclude that antibiotic prophylaxis is unnecessary for laparoscopic inguinal hernia repair.
+
+The trial was next cited in the 2009 European Hernia Society guidelines on the treatment of inguinal hernia in adult patients [@Simons 2009]. The article was only included in a summary table and no specific discussion of the trial or its merits is included.
+
+The trial was also cited in the 2011 Guidelines for laparoscopic (TAPP) and endoscopic (TEP) treatment of inguinal hernia by the International Endohernia Society [@Bittner2011]. The criticisms are similar to those made by Aufenacker et al.:
+
+> The endoscopic RCT by Schwetling and B&auml;rlehner has an incorrect randomization, lacks a definition of wound infection, and is heavily underpowered with only 40 patients in each arm. It does not allow any conclusions to be made...
+
+These criticisms are repeated verbatim by K&ouml;cherling et al. in 2015 [@Köcherling2015].
+
+The 2018 *International guidelines for groin hernia management* by the *HerniaSurge Group* only briefly mentions Schwetling et al. by describing it as 
+
+> [The] only one small, low-quality RCT demonstrating no wound infections in any group in laparo-endoscopic IH repairs. [[HerniaSurge Group 2018][10]]
+
+Until the full text can be retrieved and reviewed, it is best to assume that Schwetling et al. is neither evidence for or against the use of antibiotic prophylaxis in laparoscopic inguinal hernia repair.
+
+----------
+## Database Studies ##
+
+ - Swedish Br&aring;ckregister
+ - Herniamed Registry
+
+*Do you know of additional database studies not included in this literature review? Please email the study correspondent: [Dylan Russell, MD][11].*
+
+### Swedish Br&aring;ckregister and Bittner et al., 2011
+
+The **[Swedish Bråckregister][12]** contains information on groin hernia operations in patients who are 15 years and older. It was created in 1992. As part of the 2011 guidelines for laparoscopic (TAPP) and endoscopic (TEP) treatment of inguinal hernia issued by Bittner et al. for the *International Endohernia Society*, the database annual reports were reviewed for wound infections between 1992 and 2006 [[Bittner 2011][13]].
+
+The rate of wound infection in 28,220 patients who underwent inguinal hernia repair and received antibiotic prophylaxis was 1.4%. The rate of wound infection in 104,354 patients who underwent inguinal hernia repair and did *not* receive antibiotic prophylaxis was also 1.4%.
+
+No specific analysis of patients who underwent laparoscopic repair was conducted. Approximately 8% of the included patients underwent laparoscopic surgery.
+
+The details of this database analysis are not available for review and therefore the results should be regarded with skepticism.
+
+Bittner et al. ultimately issued a statement regarding antibiotic prophylaxis in laparoscopic inguinal hernia repair:
+
+> There is insufficient evidence for routine antibiotic prophylaxis in laparoscopic hernia surgery.
+
+The recommendations included:
+
+> Antibiotic prophylaxis for elective laparoscopic inguinal hernia repair cannot be universally recommended.
+
+and
+
+> It is recommended that antibiotic prophylaxis should be considered in the presence of risk factors for wound and mesh infection based on patient (advanced age, corticosteroid usage, immunosuppressive conditions and therapy, obesity, diabetes, and malignancy) or surgical complications (contamination, long operation time, drainage, urinary catheter).
+
+These were grade D recommendations which are based on the lowest level of available evidence comprised mainly of expert opinion and inconsistent or inconclusive studies. This statement was based on more than the Swedish Br&aring;ckregister query alone and is discussed further in the "Guidelines" section of this literature review.
+
+A 2015 guidelines update by Bittner et al. did not repeat a Swedish Br&aring;ckregister query and analysis [[Bittner 2015][14]]. They did not update their statement or recommendations. 
+
+No specific treatment effect of antibiotic prophylaxis in laparoscopic inguinal hernia repair was reported in either Bittner 2011 or Bittner 2015.
+
+### Herniamed and K&ouml;cherling et al., 2015 ###
+
+The non-profit **[Herniamed][15]** is a German and English language "internet-based quality assurance study (registry) into which all hospitals and private surgery practices can enter data, free of charge and using a scientifically corroborated standard, on the hernia operations performed by them." The registry was established in 2012 [[Stechemesser 2012][16]].
+
+A [large number of studies][17] have been published using the data available from Herniamed. In 2015, K&ouml;cherling et al. published a retrospective database analysis of Herniamed [[K&ouml;cherling 2015][18]]. The target variables for analysis were impaired wound healing and deep infection with mesh involvement within 30 days of surgery.
+
+Between September 1, 2009 and March 5, 2014, a total of 85,033 patients were enrolled, of which 48,201 patients underwent endoscopic repair with mesh. The majority of cases were TAPP (*n* = 29,775) with the remainder being TEP (*n* = 18,426).
+
+Unadjusted analysis of the outcome variables - which does not account for the effect of various explanatory variables (i.e., open vs. endoscopic, ASA score, sex, etc.) demonstrated a *statistically significant* difference between antibiotic prophylaxis and no antibiotic prophylaxis in rates of impaired wound healing (0.20% vs. 0.30%, *p* = 0.009) and deep infection (0.12% vs. 0.20%, *p* = 0.006). Although statistically significant, the clinical significance of this unadjusted rate difference is questionable. 
+
+The multivariable analysis of the total patient collective demonstrated that the choice of procedure (open vs. endoscopic) exerted more of a preventive effect on rates of impaired wound healing and deep infection than did the administration of antibiotic prophylaxis.
+
+Of 48,201 patients, 35,567 (58.46%) received antibiotic prophylaxis and 12,634 (52.20%) did not. The multivariable analysis of laparoscopic/endoscopic inguinal hernia operations alone was unable to identify variables (to include administration of antibiotic prophylaxis) that exerted significant influence on either post-operative wound healing (53 cases, *p* = 0.6431) or deep infections (27 cases, *p* = 0.8409).
+
+K&ouml;cherling et al. summarize by stating 
+
+>...antibiotic prophylaxis should not be administered for endoscopic/laparoscopic inguinal hernia surgery. 
+
+They further state that
+
+>the positive impact of the endoscopic/laparoscopic technique on avoidance of impaired wound healing and deep infections with mesh involvement is already so great that antibiotic prophylaxis has no additional benefit.
+
+The authors make no caveats in regard to the pre-operative risk of the patient in regards to the decision of administering antibiotic prophylaxis.
+
+
+----------
+## Systematic Reviews and Meta-Analyses ##
+
+There exists a severe disparity in the number of systematic reviews and meta-analyses for antibiotic prophylaxis in laparoscopic inguinal hernia repair compared to open inguinal hernia repair. This is likely due to the paucity of randomized controlled trials, as described above.
+
+ - Aufenacker, 2006
+
+*Do you know of additional systematic reviews or meta-analyses not included in this literature review? Please email the study correspondent: [Dylan Russell, MD][19].*
+
+
+### Aufenacker et al., 2006 ###
+
+In addition to six studies of elective open inguinal hernia repair, this meta-analysis included only a single study comparing antibiotic prophylaxis versus placebo in laparoscopic inguinal hernia repair [[Aufenacker, 2006][20]]. This study by Schwetling et al., published in 1998, was previously discussed above [[Schwetling 1998][21]].
+
+Despite considering the study to be weak, Aufenacker et al. conclude
+
+> This study virtually excluded a high risk of wound infection after laparoscopic repair... Although hard evidence is lacking, it is probably acceptable to conclude that antibiotic prophylaxis is unnecessary for laparoscopic inguinal hernia repair.
+
+In regards to elective open repair, the authors conclude
+
+> Antibiotic prophylaxis did not prevent the occurrence of wound infection after groin hernia surgery.
+
+An estimated treatment effect of antibiotic prophylaxis in laparoscopic inguinal hernia repair was not published in this meta-analysis.
+
+----------
+
+## Guidelines ##
+
+ - European Hernia Society, 2009
+ - International Endohernia Society, 2011 and 2015
+ - HerniaSurge Group, 2018
+
+*Do you know of additional guidelines not included in this literature review? Please email the study correspondent: [Dylan Russell, MD][22].*
+
+### European Hernia Society, 2009 ###
+
+The [**European Hernia Society**][23] is a non-profit international scientific forum focused on abdominal wall surgery. It was founded in 1979 in France before being renamed in 1998 to adapt a more inclusive and European character. In 2009, the society published a set inguinal hernia evidence-based guidelines covering diagnosis to after care in adult patients > 18 years old [[Simons 2009][24]].
+
+The relevant section of the guidelines posits the question "Is antibiotic prophylaxis routinely indicated for elective inguinal surgery for primary inguinal hernia?"
+
+The authors make one relevant conclusion and one relevant recommendation:
+
+> Level 2B: In endoscopic repair, antibiotic prophylaxis does not significantly reduce the number of wound infections.
+
+> Grade B: In endoscopic hernia repair, antibiotic prophylaxis is probably not indicated.
+
+Level 2B evidence is considered an "RCT of poorer quality or cohort or case-control studies". The only study cited that is relevant to endoscopic repair is the previously discussed poor quality study by Schwetling et al. [[Schwetling 1998][25]]. The guidelines do not discuss this trial; it is only listed in a table of included studies. Grade B recommendations are "considered supported by good cohort studies and/or case-control studies". This grade of recommendation would appear to conflict with the level of evidence. It is unknown and not clarified within the guidelines how this grade recommendation was justified given the level of evidence available.
+
+The guidelines published a treatment effect for antibiotic prophylaxis in laparoscopic inguinal hernia repair: "NNT: &#8734;". 
+
+### International Endohernia Society, 2011 and 2015 ###
+
+The [**International Endohernia Society**][26] is an international network of surgeons with a particular interest in laparo-endoscopic hernia repair. It was founded in Greece in 2004. The society issued guidelines for laparoscopic inguinal hernia repair in 2011 [[Bittner 2011][27]].
+
+The relevant section of the guidelines is chapter 1. The authors ask "Is antibiotic prophylaxis routinely indicated for an elective laparoscopic inguinal hernia operation?"
+
+The guidelines make one statement and two recommendations:
+
+> Level 5: There is insufficient evidence for routine antibiotic prophylaxis in laparoscopic hernia surgery.
+
+> Grade D: Antibiotic prophylaxis for elective laparoscopic inguinal hernia repair cannot be universally recommended.
+
+> Grade D: It is recommended that antibiotic prophylaxis should be considered in the presence of risk factors for wound and mesh infection based on patient (advanced age, corticosteroid usage, immunosuppressive conditions and therapy, obesity, diabetes, and malignancy) or surgical complications (contamination, long operation time, drainage, urinary catheter).
+
+Level 5 evidence is based on "expert opinion, animal, or lab experiments". A grade D recommendation is based on "Level 5 evidence or troubling inconsistent or inconclusive studies at any level."
+
+The only RCT cited that directly studies antibiotic prophylaxis in laparoscopic inguinal hernia was Schwetling et al., discussed above [[Schwetling 1998][28]]. The study is described as having "an incorrect randomization, lacks a definition of wound infection, and is heavily underpowered with only 40 patients in each arm. It does not allow any conclusions to be made..."
+
+It is unclear why the guidelines do not consider Schwetling et al. level 2B evidence, defined as "prospective comparative studies (or RCT of poorer quality)". The article's criticism of Schwetling et al. would seem to fit the caveat of an "RCT of poorer quality".
+
+The guideline authors also report searching the Swedish Bråckregister for the years 1992-2006 [[Swedish Bråckregister][29]]. The rate of wound infection in 28,220 patients who underwent inguinal hernia repair and received antibiotic prophylaxis was 1.4%. The rate of wound infection in 104,354 patients who underwent inguinal hernia repair and did *not* receive antibiotic prophylaxis was also 1.4%. No specific analysis of laparoscopic patients, who comprised ~8% of patients, is included.
+
+It is unclear why the guidelines do not consider the Swedish Bråckregister to be level 2C evidence, defined as "Outcome studies (analyses of large registries, population-based data, etc.).
+
+Due to a lack of studies specific to laparoscopic inguinal hernia repair, the guidelines relied heavily on studies of open hernia surgery, both with and without mesh. They also reference studies including both open and laparoscopic inguinal hernia surgery that include infectious complications as a secondary endpoint.
+
+Studies of open hernia surgery with mesh and studies including laparoscopic inguinal hernia surgery with infectious complications as a secondary endpoint are useful in estimating the incidence of infectious complications. These studies are discussed in more detail in the [Laparoscopic Inguinal Hernia Repair - Infectious Complications Rate][30] article. However, they can not necessarily be used to extrapolate about a treatment effect of antibiotic prophylaxis in laparoscopic inguinal hernia repair; this is likely why this evidence was considered level 5 (expert opinion).
+
+The recommendation that antibiotic prophylaxis can not be universally recommended seems appropriately graded as grade D. Although Schwetling et al. may have been justifiably level 2B, it is a poor and inconclusive study and can not form the foundation of a strong recommendation. The remainder of the evidence is indirect, compromised mainly of open inguinal hernia surgery, and requiring extensive expert interpretation and extrapolation to laparoscopic repair.
+
+The 2015 guidelines update included additional studies regarding open inguinal hernia repair but did not ultimately affect the level of evidence or recommendation [[Bittner 2015][31]]. 
+
+The guidelines did not publish an estimated treatment effect for antibiotic prophylaxis in laparoscopic inguinal hernia repair.
+
+### HerniaSurge Group, 2018 ###
+
+[**HerniaSurge**][32] is an international collaborative committee of national hernia societies that issues guidelines for groin hernia management. The most recent guidelines were issued in 2018 and published in *Hernia* [[HerniaSurge Group 2018][33]].
+
+The relevant section of the guidelines answers four questions related to antibiotic prophylaxis. KQ12.d asks "Are prophylactic antibiotics indicated in laparoscopic repair in any patient in any risk environment?" This is the only key question concerned with laparoscopic repair.
+
+Two "risk environments" are established for the purpose of answering this question. A *low risk environment* is one in which a 5% or less wound infection rate exists in the placebo group. Higher rate studies are considered *high risk environments*. An *average risk* patient is described as "those with primary hernias and minimal individual or operative risk factors".
+
+The HerniaSurge Group issued the following recommendation:
+
+> In laparo-endoscopic repair in any patient in any risk environment, antibiotic prophylaxis is not recommended.
+
+This recommendation was deemed "strong" but the level of evidence was considered "low", meaning there was little confidence the estimated effect closely approximated the true effect. The studies cited as supporting evidence were K&ouml;cherling et al., 2015 and Schwetling et al. 1998 [[K&ouml;cherling 2015][34], [Schwetling 1998][35]]. 
+
+K&ouml;cherling et al. is only mentioned as "not support[ing] the use of antibiotic prophylaxis in these patients."
+
+Schwetling et al. is only briefly mentioned and described as "...one small, low-quality RCT demonstrating no wound infections in any group in laparo-endoscopic IH repairs."
+
+The guidelines relied heavily on studies of open hernia surgery, both with and without mesh. They also reference studies including both open and laparoscopic inguinal hernia surgery that include infectious complications as a secondary endpoint. These are useful for estimating the incidence of infectious complications in laparoscopic inguinal hernia surgery and are discused further in the [Laparoscopic Inguinal Hernia Repair - Infectious Complications Rate][30] article.
+
+The guidelines did not publish an estimated treatment effect for antibiotic prophylaxis in laparoscopic inguinal hernia repair.
+
+----------
+
+
+  [1]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
+  [2]: https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000104
+  [5]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
+  [6]: https://onlinelibrary.wiley.com/doi/abs/10.1002/bjs.5186
+  [7]: https://link.springer.com/article/10.1007/s10029-009-0529-7#Sec56
+  [8]: https://link.springer.com/article/10.1007/s00464-011-1799-6
+  [9]: https://link.springer.com/article/10.1007/s00464-015-4149-2
+  [10]: https://doi.org/10.1007/s10029-017-1674-z,%0Ahttp://link.springer.com/10.1007/s10029-017-1668-x%0Ahttp://www.ncbi.nlm.nih.gov/pubmed/29330835%0Ahttp://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5809582
+  [11]: mailto:dyl.russell@gmail.com
+  [12]: https://www.svensktbrackregister.se/index.php?lang=sv
+  [13]: https://link.springer.com/article/10.1007/s00464-011-1799-6#enumeration
+  [14]: https://link.springer.com/article/10.1007/s00464-014-3917-8
+  [15]: https://www.herniamed.de/en
+  [16]: https://www.ncbi.nlm.nih.gov/pubmed/22389073
+  [17]: https://www.herniamed.de/en/publications
+  [18]: https://link.springer.com/article/10.1007/s00464-015-4149-2
+  [19]: mailto:dyl.russell@gmail.com
+  [20]: https://onlinelibrary.wiley.com/doi/abs/10.1002/bjs.5186
+  [21]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
+  [22]: mailto:dyl.russell@gmail.com
+  [23]: https://www.europeanherniasociety.eu/
+  [24]: https://doi.org/10.1007/s10029-009-0529-7
+  [25]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
+  [26]: http://www.iehs.de/
+  [27]: https://doi.org/10.1007/s00464-011-1799-6
+  [28]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
+  [29]: https://www.svensktbrackregister.se/index.php?lang=sv
+  [30]: https://osf.io/7fmvx/wiki/Laparoscopic%20Inguinal%20Hernia%20Repair%20-%20Infectious%20Complication%20Rates/?edit&view&menu
+  [31]: https://doi.org/10.1007/s00464-014-3917-8
+  [32]: http://herniasurge.com/
+  [33]: https://link.springer.com/article/10.1007/s10029-017-1668-x
+  [34]: https://link.springer.com/article/10.1007/s00464-015-4149-2
+  [35]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
+
