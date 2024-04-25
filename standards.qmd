@@ -67,7 +67,7 @@ Please collect your citations in `.bib` or `.nbib` format. You will submit them 
 Please see `markdown.qmd` for details on where to get these files and how to include citations in your manuscript.
 
 # Images {#sec-images}
-If there is a table or figure from an article you would like to include in your manuscript, use the following format to include it:
+If there is a table or figure you would like to include in your manuscript, use the following format to include it:
 
 ```
 ![My Figure Caption](figure1.png){#fig-uniquename}
@@ -80,16 +80,8 @@ where:
 
 Please see `markdown.qmd` for more information on figures and how to include and reference them in your manuscript.
 
-To actually obtain the image, a screenshot is necessary. We want to obtain high resolution images. Usually 300 dpi for print and 72 dpi for a webpage. All you need to worry about is getting the largest screenshot possible, I will resize as needed to the appropriate dpi. 
-
-I recommend using the built-in screenshot tool of whatever PDF reader you are using. If you do not already have Adobe Acrobat, I recommend the free application [PDFGear](https://www.pdfgear.com/). It is as good, if not better, in my opinion. 
-
-Enlarge the table or figure you would like to include to the largest you can fit on your screen at once then use the screenshot tool, as shown in @fig-screenshot. Save the file and hold on to it, you will submit it with your manuscript.
-
-![PDFGear Screenshot Tool](screenshot.png){#fig-screenshot width="100%"}
-
 # Collecting Data
-An Excel sheet called `data.xls` has been sent with these documents. This is divided into tabs by type of research study. Please fill out the fields as much as possible for each article you include. The fields should be self-explanatory but please let me know if you have issues.
+A Google sheet will be shared with you. This is divided into tabs by type of research study. Please fill out the fields as much as possible for each article you include. The fields should be self-explanatory but please let me know if you have issues.
 
 # Submission
 When complete, the manuscript and auxillary documents will be uploaded to a secure website for processing and compilation. Access to the file upload will be granted at a later date. 
@@ -99,7 +91,8 @@ Zip the following documents into a single folder and submit:
 1. The manuscript `.txt` or `.qmd` file.
 2. Articles saved as `.pdf` files.
 3. Citations saved as `.bib` or `.nbib` files.
-3. Images of all figures/tables as `.png` files.
-4. `data.xls` Excel sheet with data collected.
+4. Images of all figures/tables as `.png` files.
+
+Please also complete the assigned Google Sheet.
 
 # References

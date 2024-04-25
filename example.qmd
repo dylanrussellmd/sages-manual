@@ -16,9 +16,9 @@ csl: springer-basic-author-date.csl
 
 ## Schwetling et al., 1998 
 
-The article published by Schwetling et al. in 1998 is widely reported by multiple systematic reviews, meta-analyses, and guideline statements as being the only available randomized controlled trial regarding antibiotic prophylaxis in laparoscopic inguinal hernia repair @Schwetling1998.
+The article published by Schwetling et al. in 1998 is widely reported by multiple systematic reviews, meta-analyses, and guideline statements as being the only available randomized controlled trial regarding antibiotic prophylaxis in laparoscopic inguinal hernia repair [@Schwetling1998].
 
-At the time of this literature review, the full text remains unobtainable. The [PubMed portal for the article][1] does not include a link to the full text. The [Zentralblatt für Chirurgie][2] Thieme portal only includes electronic articles dating as far back as 2000.
+At the time of this literature review, the full text remains unobtainable. The [PubMed portal for the article](https://www.ncbi.nlm.nih.gov/pubmed/9556895) does not include a link to the full text. The [Zentralblatt für Chirurgie](https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000104). Thieme portal only includes electronic articles dating as far back as 2000.
 
 All information regarding the outcomes of this trial and criticisms levied against it are acquired from the available PubMed abstract and from articles that cite the study.
 
@@ -28,27 +28,27 @@ The study reports that "both the groups were statistically comparable" and that 
 
 The abstract concludes by stating
 
-> ...we can recommend the laparoscopic implantation of alloplastic meshes in "simple hernias" without perioperative antibiotic prophylaxis. In risk patients, antibiotics should still given further.
+> ...we can recommend the laparoscopic implantation of alloplastic meshes in "simple hernias" without perioperative antibiotic prophylaxis. In risk patients, antibiotics should still given further [@Schwetling1998].
 
 The first article to cite this trial was Aufenacker et al. in 2006 [@Aufenacker2006]. The authors state that, at the time of publication, the Schwetling et al. study is the only known study concerning laparoscopic inguinal hernia repair. They describe the study as
 
-> weak (incorrect randomization and lack of definition of wound infection) but, in the absence of other studies, it was considered best evidence.
+> weak (incorrect randomization and lack of definition of wound infection) but, in the absence of other studies, it was considered best evidence [@Aufenacker2006].
 
 Despite this criticism, Aufenacker et al. go on to conclude
 
 > This study virtually excluded a high risk of wound infection after laparoscopic repair... Although hard evidence is lacking, it is probably acceptable to conclude that antibiotic prophylaxis is unnecessary for laparoscopic inguinal hernia repair.
 
-The trial was next cited in the 2009 European Hernia Society guidelines on the treatment of inguinal hernia in adult patients [@Simons 2009]. The article was only included in a summary table and no specific discussion of the trial or its merits is included.
+The trial was next cited in the 2009 European Hernia Society guidelines on the treatment of inguinal hernia in adult patients [@Simons2009]. The article was only included in a summary table and no specific discussion of the trial or its merits is included.
 
-The trial was also cited in the 2011 Guidelines for laparoscopic (TAPP) and endoscopic (TEP) treatment of inguinal hernia by the International Endohernia Society [@Bittner2011]. The criticisms are similar to those made by Aufenacker et al.:
+The trial was also cited in the 2011 Guidelines for Laparoscopic (TAPP) and Endoscopic (TEP) Treatment of Inguinal Hernia by the International Endohernia Society [@Bittner2011]. The criticisms are similar to those made by Aufenacker et al.:
 
-> The endoscopic RCT by Schwetling and B&auml;rlehner has an incorrect randomization, lacks a definition of wound infection, and is heavily underpowered with only 40 patients in each arm. It does not allow any conclusions to be made...
+> The endoscopic RCT by Schwetling and Bärlehner has an incorrect randomization, lacks a definition of wound infection, and is heavily underpowered with only 40 patients in each arm. It does not allow any conclusions to be made... [@Bittner2011]
 
-These criticisms are repeated verbatim by K&ouml;cherling et al. in 2015 [@Köcherling2015].
+These criticisms are repeated verbatim by Köcherling et al. in 2015 [@Kocherling2015].
 
-The 2018 *International guidelines for groin hernia management* by the *HerniaSurge Group* only briefly mentions Schwetling et al. by describing it as 
+The 2018 International Guidelines for Groin Hernia Management by the HerniaSurge Group only briefly mentions Schwetling et al. by describing it as 
 
-> [The] only one small, low-quality RCT demonstrating no wound infections in any group in laparo-endoscopic IH repairs. [[HerniaSurge Group 2018][10]]
+> [The] only one small, low-quality RCT demonstrating no wound infections in any group in laparo-endoscopic IH repairs [@HerniaSurgeGroup2018].
 
 Until the full text can be retrieved and reviewed, it is best to assume that Schwetling et al. is neither evidence for or against the use of antibiotic prophylaxis in laparoscopic inguinal hernia repair.
 
@@ -222,8 +222,8 @@ The guidelines did not publish an estimated treatment effect for antibiotic prop
 ----------
 
 
-  [1]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
-  [2]: https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00000104
+  [1]: 
+  [2]: 
   [5]: https://www.ncbi.nlm.nih.gov/pubmed/9556895
   [6]: https://onlinelibrary.wiley.com/doi/abs/10.1002/bjs.5186
   [7]: https://link.springer.com/article/10.1007/s10029-009-0529-7#Sec56

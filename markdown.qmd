@@ -178,6 +178,18 @@ They're also easy to find on PubMed and almost any journal site, such as a JAMA,
 ![JAMA citation download](jama_cite.png){#fig-jama-cite height=30%}
 :::
 
+## Images
+
+You will likely want to include relevant tables and figures from the included articles in your chapter. 
+
+To actually obtain the figure, a screenshot is necessary. We want to obtain high resolution images. Usually 300 dpi for print and 72 dpi for a webpage. All you need to worry about is getting the largest screenshot possible, I will resize as needed to the appropriate dpi. 
+
+I recommend using the built-in screenshot tool of whatever PDF reader you are using. If you do not already have Adobe Acrobat, I recommend the free application [PDFGear](https://www.pdfgear.com/). It is as good, if not better, in my opinion. 
+
+Enlarge the table or figure you would like to include to the largest you can fit on your screen at once then use the screenshot tool, as shown in @fig-screenshot. Save the file and hold on to it, you will submit it with your manuscript.
+
+![PDFGear Screenshot Tool](screenshot.png){#fig-screenshot width="100%"}
+
 ## Cross-references
 
 It's often desirable to be able to reference a figure, table, or section header. For example, if you look in @sec-citations, I referenced @fig-gs, @fig-pm, and @fig-journal. And just now, I didn't write any of those references:
@@ -221,3 +233,5 @@ You can provide hyperlinks for websites. This will be nice for readers of online
 ```
 You've probably seen hyperlinks already in this document but [here is another](www.google.com).
 ```
+
+# References
