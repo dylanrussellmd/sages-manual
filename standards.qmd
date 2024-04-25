@@ -77,7 +77,7 @@ If the study is a guideline or study performed by a group, use a "`GroupName`, `
 # Citations {#sec-citations}
 Please collect your citations in `.bib` format. You will submit them later. If you can not find a `.bib` citation but have a DOI, ISBN, or PMID or if you found a different citation file format (`.ris`, `.nbib`), you can convert this to `.bib` using [this website](www.bibtex.com/converters).
 
-Please see `markdown.qmd` for details on where to get these files and how to include citations in your manuscript.
+Please see `markdown.pdf` for details on where to get these files and how to include citations in your manuscript.
 
 # Images {#sec-images}
 If there is a table or figure you would like to include in your manuscript, use the following format to include it:
@@ -91,7 +91,7 @@ where:
 - `(figure1.png)` is the file name of your figure.
 - `{#fig-uniquename}` is your cross reference key for the figure (see `markdown.qmd` for more information).
 
-Please see `markdown.qmd` for more information on figures and how to include and reference them in your manuscript.
+Please see `markdown.pdf` for more information on figures and how to include and reference them in your manuscript.
 
 All images should be saved as `.png` and saved for submission with your manuscript.
 
@@ -105,7 +105,7 @@ Zip the following documents into a single folder and submit:
 
 1. The manuscript `.txt` or `.qmd` file.
 2. Articles saved as `.pdf` files.
-3. Citations saved as `.bib` or `.nbib` files.
+3. Citations saved as `.bib` files.
 4. Images of all figures/tables as `.png` files.
 
 Please also complete the assigned Google Sheet.
