@@ -1,8 +1,8 @@
 ---
 title: Writing the Manuscript with Markdown
-bibliography: biblatex-examples.bib
-csl: springer-basic-author-date.csl 
 citeproc: true
+bibliography: biblatex-examples.bib
+csl: springer-basic-author-date.csl
 number-sections: true
 format: 
   typst:
@@ -154,6 +154,12 @@ Notice the very first part of that code block: `@book{augustine,`. That part is 
 
 In fact, you can change any of the data in the `.bib` file. It is fairly self-explanatory and what is contained within it is what will make it into the final bibliography.
 
+If you would like to include two or more citations, just seperate your citations within the square brackets with a `;` [@augustine; @cicero; @aksin].
+
+```
+If you would like to include two or more citations, just seperate your citations within the square brackets with a `;` [@augustine; @cicero; @aksin].
+```
+
 You should not have to make your own `.bib` files. You should be able to find them for any paper you're trying to cite. As shown in @fig-gs, you'll see it's easy to find in Google Scholar.
 
 ::: {#fig-gs layout-nrow=2}
@@ -178,6 +184,8 @@ They're also easy to find on PubMed and almost any journal site, such as a JAMA,
 ![JAMA citation download](jama_cite.png){#fig-jama-cite height=30%}
 :::
 
+There are even websites online, such as [this website](bibtext.com/converters), where you can convert any number of identifiers, such as DOI or PMID, or different file types (`.ris`, `.nbib`), to a `.bib` citation file.
+
 ## Images
 
 You will likely want to include relevant tables and figures from the included articles in your chapter. 
@@ -186,7 +194,7 @@ To actually obtain the figure, a screenshot is necessary. We want to obtain high
 
 I recommend using the built-in screenshot tool of whatever PDF reader you are using. If you do not already have Adobe Acrobat, I recommend the free application [PDFGear](https://www.pdfgear.com/). It is as good, if not better, in my opinion. 
 
-Enlarge the table or figure you would like to include to the largest you can fit on your screen at once then use the screenshot tool, as shown in @fig-screenshot. Save the file and hold on to it, you will submit it with your manuscript.
+Enlarge the table or figure you would like to include to the largest you can fit on your screen at once then use the screenshot tool, as shown in @fig-screenshot. Save the file as a `.png` and hold on to it, you will submit it with your manuscript.
 
 ![PDFGear Screenshot Tool](screenshot.png){#fig-screenshot width="100%"}
 

@@ -26,33 +26,33 @@ Principles of antimicrobial stewardship, save money, avoid antibiotic related ad
 
 # Expectations
 1. Write the manuscript in markdown. See `markdown.qmd` which was sent with this document.
-2. Do a "thorough review" of the relevant literature. "Thorough" is left to be defined by the subject matter expert (i.e., you), but here are some suggestions:
+1. Do a "thorough review" of the relevant literature. "Thorough" is left to be defined by the subject matter expert (i.e., you), but here are some suggestions:
     i) Include studies that are specifically about, or can be reasonably generalized to, your assigned procedure(s).
-    ii) No study is too old; as long as you deem the methodology still relevant to modern surgical practice, it may be included.
-    iii) It is okay to include studies you consider subpar, dubious, questionable, or otherwise trash. Reviewing the quality of available evidence is an important part of making an informed recommendation.
-    v) It is better to include too many studies rather than too few; we can always cut down.
-    vi) Start with RCTs and meta-analyses. There is no reason not to include all of these.
-    vii) Include non-randomized prospective and retrospective studies at your discretion. You should discuss these if there is a paucity of higher quality evidence.
-    viii) Please discuss any existing relevant societal guidelines.
-3. Organize the manuscript in chronological order.
-3. For each article please discuss:
+    i) No study is too old; as long as you deem the methodology still relevant to modern surgical practice, it may be included.
+    i) It is okay to include studies you consider subpar, dubious, questionable, or otherwise trash. Reviewing the quality of available evidence is an important part of making an informed recommendation.
+    i) It is better to include too many studies rather than too few; we can always cut down.
+    i) Start with RCTs and meta-analyses. There is no reason not to include all of these.
+    i) Include non-randomized prospective and retrospective studies at your discretion. You should discuss these if there is a paucity of higher quality evidence.
+    i) Please discuss any existing relevant societal guidelines.
+1. Organize the manuscript in sections organized by type of study in decsending order of quality (i.e., randomized controlled trials, prospective non-randomized trials, database studies, etc.). Within sections, organize studies in chronological order with subheadings for each study. See `example.pdf` as well as `example.qmd` (from which `example.pdf` was generated) for examples.
+1. For each article please discuss:
     i) Relevant research context of the study (usually in the article's introduction).
-    ii) Methodology
-    iii) Results
-    iv) Authors' conclusions
-    v) Any criticisms (your own and/or from other sources) 
-3. Use direct quotes whenever possible, especially when authors make a firm conclusion or recommendation.
-4. Report exact results whenever possible.
-5. Relevant figures and tables should be included in the manuscript (see @sec-images).
-6. Cite all studies (see @sec-citations).
-7. Make concluding recommendation for or against surgical antibiotic prophylaxis.
+    i) Methodology
+    i) Results
+    i) Authors' conclusions
+    i) Any criticisms (your own and/or from other sources) 
+1. Use direct quotes whenever possible, especially when authors make a firm conclusion or recommendation.
+1. Report exact results whenever possible.
+1. Relevant figures and tables should be included in the manuscript (see @sec-images).
+1. Cite all studies (see @sec-citations).
+1. Make concluding recommendation for or against surgical antibiotic prophylaxis.
     i) It is ok to make nuanced recommendations (e.g., differing recommendations for certain risk factors or patient populations).
-    ii) If there is no good evidence either way, it is ok to leave to the discretion of the operating surgeon.
-8. Make recommendations for further research, such as:
+    i) If there is no good evidence either way, it is ok to leave to the discretion of the operating surgeon.
+1. Make recommendations for further research, such as:
     i) "We need to study X risk factors more."
-    ii) "We need a randomized controlled trial."
-    iii) "We need more studies in the United States as current studies in X region do not represent our patient population accurately."
-    iv) "Scotty, we need more power" [@captainkirk]
+    i) "We need a randomized controlled trial."
+    i) "We need more studies in the United States as current studies in X region do not represent our patient population accurately."
+    i) "Scotty, we need more power" [@captainkirk]
 
 # Articles
 Please keep PDF copies of the articles you use to write the manuscript. You will submit them later. 
@@ -61,8 +61,21 @@ Please keep PDF copies of the articles you use to write the manuscript. You will
 If you do not have access to an article you need, please let me know. I can probably get it to you.
 :::
 
+# Headings
+Please format your headings in a "`LastName` et al., `YYYY`" format:
+
+```
+# Russell et al., 1992
+```
+
+If the study is a guideline or study performed by a group, use a "`GroupName`, `YYYY`" format:
+
+```
+# SAGES, 2024
+```
+
 # Citations {#sec-citations}
-Please collect your citations in `.bib` or `.nbib` format. You will submit them later.
+Please collect your citations in `.bib` format. You will submit them later. If you can not find a `.bib` citation but have a DOI, ISBN, or PMID or if you found a different citation file format (`.ris`, `.nbib`), you can convert this to `.bib` using [this website](www.bibtex.com/converters).
 
 Please see `markdown.qmd` for details on where to get these files and how to include citations in your manuscript.
 
@@ -79,6 +92,8 @@ where:
 - `{#fig-uniquename}` is your cross reference key for the figure (see `markdown.qmd` for more information).
 
 Please see `markdown.qmd` for more information on figures and how to include and reference them in your manuscript.
+
+All images should be saved as `.png` and saved for submission with your manuscript.
 
 # Collecting Data
 A Google sheet will be shared with you. This is divided into tabs by type of research study. Please fill out the fields as much as possible for each article you include. The fields should be self-explanatory but please let me know if you have issues.

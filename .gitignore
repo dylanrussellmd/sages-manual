@@ -2,6 +2,5 @@
 /markdown_files/
 *.html
 *.log
-*.pdf
 *.tex
-*.pdf
+/*_files/libs/

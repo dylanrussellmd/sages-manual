@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/debian
 {
-	"name": "Pandoc Development Container",
+	"name": "SAGES Manual of Surgical Antibiotic Prophylaxis",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 
@@ -28,7 +28,11 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
-			"defaultProfile": "pandoc"
+			"defaultProfile": "pandoc",
+			"extensions": [
+				"quarto.quarto",
+				"nvarner.typst-lsp"
+			]
 		}
 	}
 }
